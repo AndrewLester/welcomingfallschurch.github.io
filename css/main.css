@@ -144,19 +144,20 @@ footer {
     #partner-images {
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
         box-sizing: border-box;
-        align-items: stretch;
+        align-items: center;
         justify-items: center;
     }
     #partner-images > * {
         margin: 0 auto;
+        text-align: center;
         box-sizing: border-box;
         padding: 20px;
         vertical-align: middle;
     }
     #partner-images img {
         max-height: 100px;
+        width: initial;
         max-width: 300px;
     }
 }
